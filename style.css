@@ -55,9 +55,10 @@ body {
   padding: 1.5rem;
   width: min(20.4375rem);
   padding: 1.5rem;
+  transition: ease 0.3s;
   background-color: var(--clr-neutral-100);
   border: 1px solid var(--clr-neutral-900);
-  box-shadow: 12px 12px 0 var(--clr-neutral-900);
+  box-shadow: 10px 10px 0 var(--clr-neutral-900);
 }
 
 .card > p:not(:first-of-type),
@@ -66,8 +67,10 @@ h1 {
   font-weight: var(--fw-800);
 }
 
-.card .card-img {
+.card-img {
   border-radius: 0.625rem;
+  object-fit: cover;
+  height: 12.5rem;
 }
 
 .btn {
@@ -77,7 +80,7 @@ h1 {
   border-radius: 0.25rem;
   border: none;
 
-  padding: 0.25em 0.75em;
+  padding: 0.5em 0.75em;
   background-color: var(--clr-primary-400);
 }
 .published {
