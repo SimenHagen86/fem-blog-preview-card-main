@@ -59,6 +59,10 @@ body {
   background-color: var(--clr-neutral-100);
   border: 1px solid var(--clr-neutral-900);
   box-shadow: 10px 10px 0 var(--clr-neutral-900);
+
+  &:hover {
+    box-shadow: 14px 14px 0 var(--clr-neutral-900);
+  }
 }
 
 .card > p:not(:first-of-type),
@@ -79,9 +83,12 @@ h1 {
   margin: 1.5rem 0 0.75rem 0;
   border-radius: 0.25rem;
   border: none;
-
   padding: 0.5em 0.75em;
   background-color: var(--clr-primary-400);
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 .published {
   font-size: var(--fs-200);
@@ -96,11 +103,12 @@ h1 {
     transition: ease 0.3s;
     &:hover {
       color: var(--clr-primary-400);
+      cursor: pointer;
     }
   }
 }
 
-.dectription {
+.description {
   color: var(--clr-neutral-400);
   font-size: var(--fs-300);
   line-height: 1.5;
