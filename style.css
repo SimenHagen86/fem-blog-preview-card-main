@@ -52,8 +52,9 @@ body {
 }
 .card {
   border-radius: 1.25rem;
+  margin-inline: auto;
   padding: 1.5rem;
-  width: min(20.4375rem);
+  width: min(20.4375rem, 100% - 5em, 23.875rem);
   padding: 1.5rem;
   transition: ease 0.3s;
   background-color: var(--clr-neutral-100);
