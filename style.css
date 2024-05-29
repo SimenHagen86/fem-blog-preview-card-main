@@ -114,6 +114,10 @@ h1 {
   color: var(--clr-neutral-400);
   font-size: var(--fs-300);
   line-height: 1.5;
+
+  @media (width > 400px) {
+    font-size: var(--fs-400);
+  }
 }
 
 .author {
@@ -137,10 +141,6 @@ h1 {
   :root {
     --card-width: 23.875rem;
     --fs-200: var(--fs-300);
-    --fs-300: var(--fs-400);
     --fs-700: var(--fs-900);
-  }
-  .author .published {
-    font-size: 0.875rem;
   }
 }
