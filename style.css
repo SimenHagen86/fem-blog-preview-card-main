@@ -5,6 +5,7 @@
 :root {
   --mobile: 375px;
   --desktop: 1440px;
+  --card-width: 20.4375rem;
   /* neuttral colors */
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-400: hsl(0, 0%, 50%);
@@ -54,7 +55,7 @@ body {
   border-radius: 1.25rem;
   margin-inline: auto;
   padding: 1.5rem;
-  width: min(20.4375rem, 100% - 5em, 23.875rem);
+  width: var(--card-width);
   padding: 1.5rem;
   transition: ease 0.3s;
   background-color: var(--clr-neutral-100);
@@ -130,4 +131,16 @@ h1 {
 
 .hidden {
   display: none;
+}
+
+@media (width > 400px) {
+  :root {
+    --card-width: 23.875rem;
+    --fs-200: var(--fs-300);
+    --fs-300: var(--fs-400);
+    --fs-700: var(--fs-900);
+  }
+  .author {
+    font-size: 0.875rem;
+  }
 }
