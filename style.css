@@ -140,7 +140,7 @@ h1 {
     --fs-300: var(--fs-400);
     --fs-700: var(--fs-900);
   }
-  .author {
+  .author .published {
     font-size: 0.875rem;
   }
 }
