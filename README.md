@@ -48,3 +48,6 @@ Users should be able to:
 ### What I learned
 
 just trying to build something after an long break from trying to learn.
+
+made an new branch to add clamp on font sizes and merged it back into main,
+just for the sake of testing it
